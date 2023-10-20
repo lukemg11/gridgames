@@ -1,0 +1,38 @@
+.container {
+  display: grid;
+  grid-template-columns: 0.2fr 0.2fr 0.2fr 0.2fr 0.2fr;
+  grid-template-rows: 50px 50px 500px 50px;
+}
+
+
+#navbar {
+  grid-column-start: 1;
+  grid-column-end: 6;
+}
+
+
+#sidebar {
+  writing-mode: vertical-rl;
+  height: 550px;
+}
+
+
+#title {
+  grid-column-start: 2;
+  grid-column-end: 6;
+}
+
+
+
+
+#content {
+  grid-column-start: 2;
+  grid-column-end: 6;
+  height: 500px;
+}
+
+
+#footer {
+  grid-column-start: 1;
+  grid-column-end: 6;
+}

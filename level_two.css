@@ -1,0 +1,9 @@
+.container {
+    display: grid;
+  /* style the columns and rows here */
+  grid-row: auto;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 0.5fr 0.5fr;
+  /* height: 100px; */
+}
+
